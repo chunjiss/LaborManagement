@@ -28,27 +28,27 @@ Dựa trên những phân tích yêu cầu bài toán ở trên, nhóm đưa ra 
 ![image](https://user-images.githubusercontent.com/80302795/219974439-415c9302-2f8f-4199-a01f-612d549b2a3e.png)
 - Sau khi được chuyển đến trang quản trị, tại đây người dùng có thể thực hiện quản lý thông tin nhân viên, chức vụ, phòng ban, phân công, công trình, tài khoản mật khẩu.
 ![image](https://user-images.githubusercontent.com/80302795/219974446-329aae66-b160-4648-869f-c663ecdcf681.png)
-•	Khi người dùng chọn vào chức năng quản lý nhân viên thì sẽ hiển thị danh sách nhân viên và các chức năng thêm, sửa, xóa tương ứng. 
--	Khi muốn thêm mới thì người dùng phải nhập mã nhân viên không được trùng với mã đã có và tên nhân viên không được để trống, nếu không thì không được phép thêm. 
+- Khi người dùng chọn vào chức năng quản lý nhân viên thì sẽ hiển thị danh sách nhân viên và các chức năng thêm, sửa, xóa tương ứng. 
+- Khi muốn thêm mới thì người dùng phải nhập mã nhân viên không được trùng với mã đã có và tên nhân viên không được để trống, nếu không thì không được phép thêm. 
 -	Khi muốn sửa thì người dùng phải chọn vào đối tượng cần sửa, khi đó sẽ hiển thị thông tin cần sửa, sau khi sửa người dùng có thể lưu thay đổi hoặc hủy bỏ thao tác. Ngược lại nếu không chọn đối tượng cần sửa thì không có thông tin để sửa.
 -	Khi muốn xóa thì người dùng phải chọn đối tượng cần xóa, khi đó sẽ hiển thị thông báo xác nhận xóa, người dùng có thể chọn xóa hoặc hủy thao tác. Ngược lại, nếu không chọn đối tượng thì không có thông tin để xóa.
 ![image](https://user-images.githubusercontent.com/80302795/219974457-b6e68f37-50da-47a4-961e-e58b8bc5d8d9.png)
-•	Khi người dùng chọn vào chức năng quản lý phòng ban thì sẽ hiển thị danh sách phòng ban và các chức năng thêm, sửa, xóa tương ứng. 
+- Khi người dùng chọn vào chức năng quản lý phòng ban thì sẽ hiển thị danh sách phòng ban và các chức năng thêm, sửa, xóa tương ứng. 
 -	Khi muốn thêm mới thì người dùng phải nhập mã phòng ban không được trùng với mã đã có và tên phòng ban không được để trống, nếu không thì không được phép thêm. 
 -	Khi muốn sửa thì người dùng phải chọn vào đối tượng cần sửa, khi đó sẽ hiển thị thông tin cần sửa, sau khi sửa người dùng có thể lưu thay đổi hoặc hủy bỏ thao tác. Ngược lại nếu không chọn đối tượng cần sửa thì không có thông tin để sửa.
 -	Khi muốn xóa thì người dùng phải chọn đối tượng cần xóa, khi đó sẽ hiển thị thông báo xác nhận xóa, người dùng có thể chọn xóa hoặc hủy thao tác. Ngược lại, nếu không chọn đối tượng thì không có thông tin để xóa.
 ![image](https://user-images.githubusercontent.com/80302795/219974474-bb656933-4880-493a-818d-62fdcc126f9e.png)
-•	Khi người dùng chọn vào chức năng quản lý công trình thì sẽ hiển thị danh sách công trình và các chức năng thêm, sửa, xóa tương ứng. 
+- Khi người dùng chọn vào chức năng quản lý công trình thì sẽ hiển thị danh sách công trình và các chức năng thêm, sửa, xóa tương ứng. 
 -	Khi muốn thêm mới thì người dùng phải nhập mã công trình không được trùng với mã đã có và tên công trình không được để trống, nếu không thì không được phép thêm. 
 -	Khi muốn sửa thì người dùng phải chọn vào đối tượng cần sửa, khi đó sẽ hiển thị thông tin cần sửa, sau khi sửa người dùng có thể lưu thay đổi hoặc hủy bỏ thao tác. Ngược lại nếu không chọn đối tượng cần sửa thì không có thông tin để sửa.
 -	Khi muốn xóa thì người dùng phải chọn đối tượng cần xóa, khi đó sẽ hiển thị thông báo xác nhận xóa, người dùng có thể chọn xóa hoặc hủy thao tác. Ngược lại, nếu không chọn đối tượng thì không có thông tin để xóa.
 ![image](https://user-images.githubusercontent.com/80302795/219974493-ff23a688-b4f2-4e6f-bd09-17039a1dbee6.png)
-•	Khi người dùng chọn vào chức năng phân công thì sẽ hiển thị danh sách phân công và các chức năng thêm, sửa, xóa tương ứng. 
+- Khi người dùng chọn vào chức năng phân công thì sẽ hiển thị danh sách phân công và các chức năng thêm, sửa, xóa tương ứng. 
 -	Khi muốn thêm mới thì người dùng phải nhập mã nhân viên và mã công trình không được trùng với mã đã có và thời gian không được để trống, nếu không thì không được phép thêm. 
 -	Khi muốn sửa thì người dùng phải chọn vào đối tượng cần sửa, khi đó sẽ hiển thị thông tin cần sửa, sau khi sửa người dùng có thể lưu thay đổi hoặc hủy bỏ thao tác. Ngược lại nếu không chọn đối tượng cần sửa thì không có thông tin để sửa.
 -	Khi muốn xóa thì người dùng phải chọn đối tượng cần xóa, khi đó sẽ hiển thị thông báo xác nhận xóa, người dùng có thể chọn xóa hoặc hủy thao tác. Ngược lại, nếu không chọn đối tượng thì không có thông tin để xóa.
 ![image](https://user-images.githubusercontent.com/80302795/219974502-56b2f280-747b-431f-b2c5-1c2dbe79d88c.png)
-•	Khi người dùng chọn vào chức năng quản lý tài khoản thì sẽ hiển thị danh sách phân công và các chức năng thêm, sửa, xóa tương ứng. 
+- Khi người dùng chọn vào chức năng quản lý tài khoản thì sẽ hiển thị danh sách phân công và các chức năng thêm, sửa, xóa tương ứng. 
 -	Khi muốn thêm mới thì người dùng phải nhập mã tài khoản và mã tài khoản không được trùng với mã đã có và tên hiển thị, tên đăng nhập, mật khẩu không được để trống, nếu không thì không được phép thêm. 
 -	Khi muốn sửa thì người dùng phải chọn vào đối tượng cần sửa, khi đó sẽ hiển thị thông tin cần sửa, sau khi sửa người dùng có thể lưu thay đổi hoặc hủy bỏ thao tác. Ngược lại nếu không chọn đối tượng cần sửa thì không có thông tin để sửa.
 -	Khi muốn xóa thì người dùng phải chọn đối tượng cần xóa, khi đó sẽ hiển thị thông báo xác nhận xóa, người dùng có thể chọn xóa hoặc hủy thao tác. Ngược lại, nếu không chọn đối tượng thì không có thông tin để xóa.
