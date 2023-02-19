@@ -1,5 +1,5 @@
-# Quan Ly Lao 
-1.	Các chức năng cơ bản của hệ thống
+# Quan Ly Lao Dong
+## 1.	Các chức năng cơ bản của hệ thống
 Qua quá trính nghiên cứu nhóm đã xây dựng được một hệ thống CSDL quản lý người lao động cơ bản đáp ứng được một số yêu cầu của như sau:
 -	Quản lý nhân viên đầy đủ các thông tin cần thiết như: mã, họ, tên, ngày sinh, giới tính, địa chỉ thường trú và tạm trú
 -	Theo dõi, cập nhật thường xuyên thông tin nhân viên, phòng bạn, chức vụ,… 
