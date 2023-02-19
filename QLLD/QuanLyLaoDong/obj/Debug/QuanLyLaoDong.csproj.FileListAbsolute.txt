@@ -1,0 +1,257 @@
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.AssemblyReference.cache
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\LoginWindow.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\MainWindow.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\App.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong_MarkupCompile.cache
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong_MarkupCompile.lref
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\QuanLyLaoDong.exe.config
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\QuanLyLaoDong.exe
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\QuanLyLaoDong.pdb
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignColors.dll
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignColors.pdb
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\App.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\LoginWindow.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\MainWindow.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.g.resources
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.Properties.Resources.resources
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.GenerateResource.cache
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.CoreCompileInputs.cache
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.CopyComplete
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.exe
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.pdb
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\ResourceXAML\MainResource.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Assets\Icons.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Styles\MainStyle.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Controls\MenuItem.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Controls\UserPopup.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Controls\MenuItem.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Controls\UserPopup.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Themes\DarkTheme.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Controls\ControlBarUC.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Controls\ControlBarUC.baml
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.dll
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.SqlServer.dll
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\System.Windows.Interactivity.dll
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.xml
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.SqlServer.xml
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\System.Windows.Interactivity.xml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong_Content.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.dll
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.Wpf.dll
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.pdb
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.xml
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.Wpf.pdb
+D:\BTL\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.Wpf.xml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Home.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Home.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Manage.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Manage.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\DetailProfile.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\DetailProfile.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Employee.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Employee.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Position.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Position.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Construction.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Construction.baml
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Assignment.g.cs
+D:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Assignment.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.AssemblyReference.cache
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Assets\Icons.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Styles\MainStyle.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Controls\ControlBarUC.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Controls\MenuItem.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Controls\UserPopup.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\LoginWindow.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\MainWindow.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Assignment.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Construction.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Employee.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Home.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Manage.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Position.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\App.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong_Content.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong_MarkupCompile.cache
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong_MarkupCompile.lref
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.exe
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.pdb
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\QuanLyLaoDong.exe.config
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\QuanLyLaoDong.exe
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\QuanLyLaoDong.pdb
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.dll
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.SqlServer.dll
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.dll
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.Wpf.dll
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignColors.dll
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\System.Windows.Interactivity.dll
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.xml
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.SqlServer.xml
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.pdb
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.xml
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.Wpf.pdb
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.Wpf.xml
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignColors.pdb
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\BTL\QLLD\QuanLyLaoDong\bin\Debug\System.Windows.Interactivity.xml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\App.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Controls\ControlBarUC.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Controls\MenuItem.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Controls\UserPopup.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\LoginWindow.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\MainWindow.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Assignment.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Construction.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Employee.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Home.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Manage.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Position.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\ResourceXAML\MainResource.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Themes\DarkTheme.baml
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.g.resources
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.Properties.Resources.resources
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.GenerateResource.cache
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.CoreCompileInputs.cache
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.CopyComplete
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Account.g.cs
+E:\BTL\QLLD\QuanLyLaoDong\obj\Debug\Pages\Account.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\QuanLyLaoDong.exe.config
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\QuanLyLaoDong.exe
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\QuanLyLaoDong.pdb
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.dll
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.SqlServer.dll
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.dll
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.Wpf.dll
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignColors.dll
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\System.Windows.Interactivity.dll
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.xml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.SqlServer.xml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.pdb
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.xml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.Wpf.pdb
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.Wpf.xml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignColors.pdb
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\bin\Debug\System.Windows.Interactivity.xml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.AssemblyReference.cache
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Assets\Icons.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Styles\MainStyle.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Controls\ControlBarUC.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Controls\MenuItem.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Controls\UserPopup.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\LoginWindow.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\MainWindow.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Account.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Assignment.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Construction.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Employee.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Home.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Manage.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Position.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\App.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong_Content.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong_MarkupCompile.cache
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong_MarkupCompile.lref
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\App.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Controls\ControlBarUC.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Controls\MenuItem.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Controls\UserPopup.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\LoginWindow.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\MainWindow.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Account.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Assignment.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Construction.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Employee.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Home.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Manage.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Pages\Position.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\ResourceXAML\MainResource.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\Themes\DarkTheme.baml
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.g.resources
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.Properties.Resources.resources
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.GenerateResource.cache
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.CoreCompileInputs.cache
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.CopyComplete
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.exe
+D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.pdb
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\QuanLyLaoDong.exe.config
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\QuanLyLaoDong.exe
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\QuanLyLaoDong.pdb
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.dll
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.dll
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignColors.dll
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.xml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.pdb
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.xml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.AssemblyReference.cache
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Assets\Icons.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Styles\MainStyle.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Controls\ControlBarUC.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Controls\MenuItem.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Controls\UserPopup.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\LoginWindow.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\MainWindow.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Account.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Assignment.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Construction.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Employee.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Home.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Manage.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Position.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\App.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong_Content.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong_MarkupCompile.cache
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong_MarkupCompile.lref
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\App.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Controls\ControlBarUC.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Controls\MenuItem.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Controls\UserPopup.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\LoginWindow.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\MainWindow.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Account.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Assignment.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Construction.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Employee.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Home.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Manage.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Pages\Position.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\ResourceXAML\MainResource.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\Themes\DarkTheme.baml
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.g.resources
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.Properties.Resources.resources
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.GenerateResource.cache
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.CoreCompileInputs.cache
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.csproj.CopyComplete
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.exe
+C:\Users\Tupha\Documents\.NET\Source code\QLLD\QuanLyLaoDong\obj\Debug\QuanLyLaoDong.pdb

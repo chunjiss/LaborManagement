@@ -1,0 +1,452 @@
+﻿<Page x:Class="QuanLyLaoDong.Pages.Employee"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      xmlns:local="clr-namespace:QuanLyLaoDong.Pages"
+      mc:Ignorable="d" 
+      DataContext="{StaticResource EmployeeVM}"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Home">
+
+    <materialDesign:DialogHost >
+        <Border CornerRadius="5" Background="#F1F3F4">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!--Start top content-->
+                <DockPanel Grid.Row="0" VerticalAlignment="Center" Margin="0 15 0 0">
+                    <StackPanel Orientation="Horizontal" >
+                        <!--Start Filter-->
+                        <TextBlock Text="Filter:" 
+                           VerticalAlignment="Center" 
+                           Margin="15 0"
+                           Foreground="#001E3C"/>
+                        <materialDesign:ColorZone Mode="Light"
+                                      Padding="8 4 8 4"
+                                      CornerRadius="5"
+                                      materialDesign:ShadowAssist.ShadowDepth="Depth1"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Row="0" Width="260" Height="35">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock VerticalAlignment="Center" 
+                               Height="auto" Width="auto" Grid.Column="0">
+                            <materialDesign:PackIcon Kind="FilterCheckOutline" Foreground="#8891A3"/>
+                                </TextBlock>
+
+                                <TextBox Grid.Column="1"
+                                     Name="txtFilter"
+                                     Margin="8 0 0 0"
+                                     materialDesign:HintAssist.Hint="Build a search bar"
+                                     materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
+                                     BorderThickness="0"
+                                     MinWidth="200"
+                                     VerticalAlignment="Center" TextChanged="txtFilter_TextChanged" />
+                            </Grid>
+                        </materialDesign:ColorZone>
+                        <!--End Filter-->
+                    </StackPanel>
+
+                    <TextBlock VerticalAlignment="Center" Margin="50 0"
+                           HorizontalAlignment="Center"
+                           Text="Danh sách nhân viên" FontSize="15"
+                           FontWeight="Bold"/>
+
+                    <!-- Start button Add, Edit, Delete-->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <!--Start Button Add-->
+                        <Button Name="btnAdd" Margin="5 0"
+                                HorizontalAlignment="Right" 
+                                VerticalAlignment="Center" 
+                                ToolTip="Thêm" Background="#29A643"
+                                Width="45" Height="30" Padding="0"
+                                BorderBrush="Transparent" BorderThickness="1">
+                            <materialDesign:PopupBox StaysOpen="True" Padding="0"
+                                                     PlacementMode="LeftAndAlignTopEdges"
+                                                     IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}">
+                                <!--Icon PopupBox-->
+                                <materialDesign:PopupBox.ToggleContent>
+                                    <materialDesign:PackIcon Kind="AddBold"
+                                                             Foreground="#DDF0FC"
+                                                             Width="45" Height="30" 
+                                                             VerticalAlignment="Center" 
+                                                             HorizontalAlignment="Center"/>
+                                </materialDesign:PopupBox.ToggleContent>
+
+                                <!--Nội dung PopupBox-->
+                                <Grid Width="350" Height="342" Background="#F1F3F4">
+                                    <Grid.Resources>
+                                        <Style TargetType="TextBox" BasedOn="{StaticResource MaterialDesignTextBox}">
+                                            <Setter Property="materialDesign:HintAssist.IsFloating" Value="True" />
+                                            <Setter Property="Margin" Value="8,8,8,8" />
+                                            <Setter Property="Foreground" Value="#455a64"/>
+                                        </Style>
+                                    </Grid.Resources>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+
+                                    <!--Tiltle của Popupbox-->
+                                    <StackPanel Orientation="Horizontal" Grid.Row="0"
+                                                Grid.ColumnSpan="2"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center">
+                                        <materialDesign:PackIcon Kind="PenAdd" Foreground="#4caf50" Width="50" Height="50"/>
+                                        <TextBlock Foreground="#607d8b" Width="200" Margin="15 20" FontWeight="Bold"
+                                                   TextWrapping="Wrap" Text="Thêm Nhân Viên"/>
+                                    </StackPanel>
+
+                                    <!--Textbox nhập mã nhân viên cần thêm-->
+                                    <TextBox Grid.Column="0" Grid.Row="1"
+                                             Text="{Binding IdEmployee, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                             materialDesign:HintAssist.Hint="Mã Nhân viên"/>
+
+                                    <!--Textbox nhập tên nhân viên cần thêm-->
+                                    <TextBox Grid.Column="0" Grid.Row="2"
+                                             materialDesign:HintAssist.Hint="Tên Nhân Viên"
+                                             Text="{Binding NameEmployee, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                                    <!--Mã Chức Vụ-->
+                                    <TextBox Grid.Column="0" Grid.Row="3"
+                                             materialDesign:HintAssist.Hint="Mã chức vụ"
+                                             Text="{Binding IdPosition, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                                    <!--Mã phòng ban-->
+                                    <TextBox Grid.Column="0" Grid.Row="4"
+                                             materialDesign:HintAssist.Hint="Mã phòng ban"
+                                             Text="{Binding IdDepartment, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                                    <!--Ngày sinh-->
+                                    <DatePicker Grid.Column="1" Grid.Row="1"
+                                                Foreground="#455a64"
+                                                SelectedDate="{Binding DateOfBirth, UpdateSourceTrigger=PropertyChanged}" 
+                                                materialDesign:HintAssist.Hint="Ngày sinh" 
+                                                Margin="8 5 8 0"
+                                                Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
+
+                                    <!--Giới tính-->
+                                    <TextBox Grid.Column="1" Grid.Row="2"
+                                             materialDesign:HintAssist.Hint="Giới tính"
+                                             Text="{Binding Gender, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                                    <!--Địa chỉ thường trú-->
+                                    <TextBox Grid.Column="1" Grid.Row="3"
+                                             materialDesign:HintAssist.Hint="Địa chỉ thường trú"
+                                             Text="{Binding Resident, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                                    <!--Địa chỉ tạm trú-->
+                                    <TextBox Grid.Column="1" Grid.Row="4"
+                                             materialDesign:HintAssist.Hint="Địa chỉ tạm trú"
+                                             Text="{Binding Staying, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                                    <!--Danh sách Button xác nhận thao tác-->
+                                    <StackPanel Grid.Row="5" Grid.ColumnSpan="2"
+                                                Orientation="Horizontal" VerticalAlignment="Center"
+                                                HorizontalAlignment="Right">
+                                        <!--Button xác nhận thêm-->
+                                        <Button Style="{StaticResource MaterialDesignOutlinedSecondaryDarkButton}"
+                                                ToolTip="Add"
+                                                BorderThickness="1" BorderBrush="#2e7d32" Margin="0 0 15 0"
+                                                Content="Thêm" Background="#F1F3F4" Foreground="#4caf50"
+                                                Command="{Binding AddCommand}"/>
+
+                                        <!--Button hủy-->
+                                        <Button Style="{StaticResource MaterialDesignOutlinedSecondaryDarkButton}"
+                                                ToolTip="Cancel"
+                                                BorderThickness="1" BorderBrush="#e65100" Margin="0 0 15 0"
+                                                Content="Hủy" Background="#F1F3F4" Foreground="#e65100"
+                                                Command="{x:Static materialDesign:PopupBox.ClosePopupCommand}" />
+                                    </StackPanel>
+                                </Grid>
+                            </materialDesign:PopupBox>
+                            <!--End PopupBox-->
+                        </Button>
+                        <!-- End Button Add-->
+
+                        <!--Button Edit-->
+                        <Button Name="btnEdit" Margin="5 0" Padding="0"
+                                HorizontalAlignment="Right" 
+                                VerticalAlignment="Center" 
+                                ToolTip="Sửa" Background="#0091ea"
+                                Width="45" Height="30"
+                                BorderBrush="Transparent" BorderThickness="1">
+                            <materialDesign:PopupBox StaysOpen="True" Padding="0"
+                                                     PlacementMode="LeftAndAlignTopEdges"
+                                                     IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}">
+                                <materialDesign:PopupBox.ToggleContent>
+                                    <materialDesign:PackIcon Kind="PencilOutline"
+                                                             Foreground="#DDF0FC"
+                                                             Width="45" Height="30" 
+                                                             VerticalAlignment="Center" 
+                                                             HorizontalAlignment="Center"/>
+                                </materialDesign:PopupBox.ToggleContent>
+
+                                <Grid Width="350" Height="342" Background="#F1F3F4">
+                                    <Grid.Resources>
+                                        <Style TargetType="TextBox" BasedOn="{StaticResource MaterialDesignTextBox}">
+                                            <Setter Property="materialDesign:HintAssist.IsFloating" Value="True" />
+                                            <Setter Property="Margin" Value="8,8,8,8" />
+                                            <Setter Property="Foreground" Value="#455a64"/>
+                                        </Style>
+                                    </Grid.Resources>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+
+                                    <!--Tiltle của Popupbox-->
+                                    <StackPanel Orientation="Horizontal" Grid.Row="0"
+                                                Grid.ColumnSpan="2"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center">
+                                        <materialDesign:PackIcon Kind="PenAdd" Foreground="#4caf50" Width="50" Height="50"/>
+                                        <TextBlock Foreground="#607d8b" Width="200" Margin="15 20" FontWeight="Bold"
+                                                   TextWrapping="Wrap" Text="Sửa thông tin nhân viên"/>
+                                    </StackPanel>
+                                    
+                                    <!--Textbox sửa tên nhân viên-->
+                                    <TextBox Grid.Column="0" Grid.Row="1"
+                                             materialDesign:HintAssist.Hint="Tên Nhân Viên"
+                                             Text="{Binding NameEmployee, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                                    <!--Chức Vụ-->
+                                    <TextBox Grid.Column="0" Grid.Row="2"
+                                             materialDesign:HintAssist.Hint="Mã chức vụ"
+                                             Text="{Binding IdPosition, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                                    <!--Phòng ban-->
+                                    <TextBox Grid.Column="0" Grid.Row="3"
+                                             materialDesign:HintAssist.Hint="Mã phòng ban"
+                                             Text="{Binding IdDepartment, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                                    <!--Ngày sinh-->
+                                    <DatePicker Grid.Column="0" Grid.Row="4"
+                                                Foreground="#455a64"
+                                                SelectedDate="{Binding DateOfBirth, UpdateSourceTrigger=PropertyChanged}" 
+                                                materialDesign:HintAssist.Hint="Ngày sinh" 
+                                                Margin="8 5 8 0"
+                                                Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
+
+                                    <!--Giới tính-->
+                                    <TextBox Grid.Column="1" Grid.Row="1"
+                                             materialDesign:HintAssist.Hint="Giới tính"
+                                             Text="{Binding Gender, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                                    <!--Địa chỉ thường trú-->
+                                    <TextBox Grid.Column="1" Grid.Row="2"
+                                             materialDesign:HintAssist.Hint="Địa chỉ thường trú"
+                                             Text="{Binding Resident, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                                    <!--Địa chỉ tạm trú-->
+                                    <TextBox Grid.Column="1" Grid.Row="3"
+                                             materialDesign:HintAssist.Hint="Địa chỉ tạm trú"
+                                             Text="{Binding Staying, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                                    <!--Danh sách Button xác nhận thao tác-->
+                                    <StackPanel Grid.Row="5" Grid.ColumnSpan="2"
+                                                Orientation="Horizontal" VerticalAlignment="Center"
+                                                HorizontalAlignment="Right">
+                                        <!--Button xác nhận thêm-->
+                                        <Button Style="{StaticResource MaterialDesignOutlinedSecondaryDarkButton}"
+                                                ToolTip="Add"
+                                                BorderThickness="1" BorderBrush="#2e7d32" Margin="0 0 15 0"
+                                                Content="Lưu" Background="#F1F3F4" Foreground="#4caf50"
+                                                Command="{Binding EditCommand}"/>
+
+                                        <!--Button hủy-->
+                                        <Button Style="{StaticResource MaterialDesignOutlinedSecondaryDarkButton}"
+                                                ToolTip="Cancel"
+                                                BorderThickness="1" BorderBrush="#e65100" Margin="0 0 15 0"
+                                                Content="Hủy" Background="#F1F3F4" Foreground="#e65100"
+                                                Command="{x:Static materialDesign:PopupBox.ClosePopupCommand}" />
+                                    </StackPanel>
+                                </Grid>
+                            </materialDesign:PopupBox>
+                        </Button>
+                        <!--End Button Edit-->
+
+                        <!--Button Delete-->
+                        <Button Name="btnDelete" 
+                                Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}"
+                                Margin="5 0 15 0" Width="45" Height="30" Padding="0"
+                                HorizontalAlignment="Right" 
+                                VerticalAlignment="Center" 
+                                ToolTip="Xóa" Background="#DC3547"
+                                BorderBrush="Transparent" BorderThickness="1">
+                            <Image Source="D:\DeSo5_NguyenThanhTam_ChuVanHuy\QLLD\QuanLyLaoDong\Images\trash-can-outline.png"
+                               StretchDirection="Both"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"/>
+                        </Button>
+                        <!-- End Button Delete-->
+                    </StackPanel>
+                </DockPanel>
+                <!--End top content-->
+
+                <Grid Grid.Row="1" Height="auto" Margin="0 5 0 0" Background="Transparent">
+                    <ListView Name="lvEmployee" Foreground="#2F3337"
+                              ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                              Grid.ColumnSpan="2" Margin="0,0,0,0.667"
+                              ItemsSource="{Binding displayNV, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  
+                              SelectedItem="{Binding SelectedItem, Mode=TwoWay}">
+
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                <Setter Property="Foreground" Value="#001E3C"/>
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                       
+                        <ListView.View>
+                            <!--Nội dung danh sách-->
+                            <GridView>
+                                <!--Mã nhân viên-->
+                                <GridViewColumn DisplayMemberBinding="{Binding MaNv}">
+                                    <GridViewColumnHeader Foreground="#001E3C">
+                                        Mã nhân viên
+                                    </GridViewColumnHeader>
+                                </GridViewColumn>
+
+                                <!--Họ tên nhân viên-->
+                                <GridViewColumn DisplayMemberBinding="{Binding HoTen}">
+                                    <GridViewColumnHeader Foreground="#001E3C">
+                                        Họ tên
+                                    </GridViewColumnHeader>
+                                </GridViewColumn>
+
+                                <!--Mã chức vụ-->
+                                <GridViewColumn DisplayMemberBinding="{Binding Pos.TenCV}">
+                                    <GridViewColumnHeader Foreground="#001E3C">
+                                        Chức vụ
+                                    </GridViewColumnHeader>
+                                </GridViewColumn>
+
+                                <!--Mã phòng ban-->
+                                <GridViewColumn DisplayMemberBinding="{Binding Dept.TenPB}">
+                                    <GridViewColumnHeader Foreground="#001E3C">
+                                        Phòng ban
+                                    </GridViewColumnHeader>
+                                </GridViewColumn>
+
+                                <!--Cột Ngày sinh-->
+                                <GridViewColumn DisplayMemberBinding="{Binding NgaySinh, StringFormat='dd/MM/yyyy'}">
+                                    <GridViewColumnHeader Foreground="#001E3C">
+                                        Ngày sinh
+                                    </GridViewColumnHeader>
+                                </GridViewColumn>
+
+                                <!--Cột giới tính-->
+                                <GridViewColumn DisplayMemberBinding="{Binding GioiTinh}">
+                                    <GridViewColumnHeader Foreground="#001E3C">
+                                        Giới tính
+                                    </GridViewColumnHeader>
+                                </GridViewColumn>
+
+                                <!--Cột địa chỉ thường trú-->
+                                <GridViewColumn DisplayMemberBinding="{Binding DiaChiThuongTru}">
+                                    <GridViewColumnHeader Foreground="#001E3C">
+                                        Địa chỉ thường trú
+                                    </GridViewColumnHeader>
+                                </GridViewColumn>
+
+                                <!--Cột địa chỉ tạm trú-->
+                                <GridViewColumn DisplayMemberBinding="{Binding DiaChiTamTru}">
+                                    <GridViewColumnHeader Foreground="#001E3C">
+                                        Địa chỉ tạm trú
+                                    </GridViewColumnHeader>
+                                </GridViewColumn>
+
+                            </GridView>
+                        </ListView.View>
+                    
+                    </ListView>
+                </Grid>
+            </Grid>
+        </Border>
+
+        <!-- Dialog Confirm delete-->
+        <materialDesign:DialogHost.DialogContent>
+            <Grid Width="300" Height="250" HorizontalAlignment="Center"
+                  Background="#F1F3F4">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal" 
+                            Margin="15" Grid.Row="0"
+                            VerticalAlignment="Center">
+                    <materialDesign:PackIcon Kind="DeleteAlertOutline" Foreground="#4caf50" Width="50" Height="50"/>
+                    <TextBlock Foreground="#607d8b" Width="200" 
+                               Margin="10" TextWrapping="Wrap"
+                               FontWeight="Bold" FontSize="18" Text="Xóa"/>
+                </StackPanel>
+
+                <StackPanel Margin="15" Grid.Row="1">
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <materialDesign:PackIcon Foreground="#455a64"
+                                                 Width="30" Height="30"
+                                                 Kind="HelpCircleOutline"/>
+                        <TextBlock Foreground="#455a64" 
+                                   VerticalAlignment="Center"
+                                   Text="Bạn có muốn xóa?" FontWeight="Bold" FontSize="15"/>
+                    </StackPanel>
+                    <TextBlock Foreground="#455a64"
+                               Margin="8"
+                               Text="Chọn Accept để xác nhận xóa!" HorizontalAlignment="Center"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" 
+                            HorizontalAlignment="Right" 
+                            VerticalAlignment="Center"
+                            Grid.Row="2">
+                    <!--Button Accept-->
+                    <Button x:Name="btnAccept" Command="{Binding DelCommand}" 
+                            Style="{DynamicResource MaterialDesignFlatButton}" 
+                            Margin="4" Foreground="#2e7d32"
+                            VerticalAlignment="Center"
+                            Content="Accept" Click="btnAccept_Click"/>
+                    <!-- End Button Accept-->
+
+                    <!--Button Cancel-->
+                    <Button Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}" 
+                            Style="{DynamicResource MaterialDesignFlatButton}" 
+                            Margin="4" Foreground="#e65100"
+                            VerticalAlignment="Center" 
+                            Content="Cancel"/>
+                    <!-- End Button Cancel-->
+                </StackPanel>
+            </Grid>
+        </materialDesign:DialogHost.DialogContent>
+        <!-- End Dialog Confirm delete-->
+
+    </materialDesign:DialogHost>
+</Page>

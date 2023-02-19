@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:viewmodel="clr-namespace:QuanLyLaoDong.ViewModel"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <viewmodel:MainViewModel x:Key="MainVM"></viewmodel:MainViewModel>
+    <viewmodel:LoginViewModel x:Key="LoginVM"></viewmodel:LoginViewModel>
+    <viewmodel:DepartmentViewModel x:Key="DepartmentVM"></viewmodel:DepartmentViewModel>
+    <viewmodel:EmployeeViewModel x:Key="EmployeeVM"></viewmodel:EmployeeViewModel>
+    <viewmodel:PositionViewModel x:Key="PositionVM"></viewmodel:PositionViewModel>
+    <viewmodel:ConstructionViewModel x:Key="ConstructionVM"></viewmodel:ConstructionViewModel>
+    <viewmodel:AssignmentViewModel x:Key="AssignmentVM"></viewmodel:AssignmentViewModel>
+    <viewmodel:AccountViewModel x:Key="AccountVM"></viewmodel:AccountViewModel>
+</ResourceDictionary>
