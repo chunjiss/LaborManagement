@@ -25,6 +25,7 @@ Qua quá trính nghiên cứu nhóm đã xây dựng được một hệ thống
 # II.Ý tưởng thiết kế 
 Dựa trên những phân tích yêu cầu bài toán ở trên, nhóm đưa ra ý tưởng thiết kế các chức năng như sau:
 - Đầu tiên là phần đăng nhập, nếu người dùng nhập sai tài khoản hoặc mật khẩu thì thông báo lỗi và để người dùng nhập lại mật khẩu. Ngược lại, chuyển người dùng đến trang quản trị.
+
 ![image](https://user-images.githubusercontent.com/80302795/219974439-415c9302-2f8f-4199-a01f-612d549b2a3e.png)
 - Sau khi được chuyển đến trang quản trị, tại đây người dùng có thể thực hiện quản lý thông tin nhân viên, chức vụ, phòng ban, phân công, công trình, tài khoản mật khẩu.
 ![image](https://user-images.githubusercontent.com/80302795/219974446-329aae66-b160-4648-869f-c663ecdcf681.png)
