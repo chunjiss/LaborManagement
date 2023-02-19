@@ -24,9 +24,9 @@ Qua quá trính nghiên cứu nhóm đã xây dựng được một hệ thống
 
 # II.Ý tưởng thiết kế 
 Dựa trên những phân tích yêu cầu bài toán ở trên, nhóm đưa ra ý tưởng thiết kế các chức năng như sau:
-•	Đầu tiên là phần đăng nhập, nếu người dùng nhập sai tài khoản hoặc mật khẩu thì thông báo lỗi và để người dùng nhập lại mật khẩu. Ngược lại, chuyển người dùng đến trang quản trị.
+- Đầu tiên là phần đăng nhập, nếu người dùng nhập sai tài khoản hoặc mật khẩu thì thông báo lỗi và để người dùng nhập lại mật khẩu. Ngược lại, chuyển người dùng đến trang quản trị.
 ![image](https://user-images.githubusercontent.com/80302795/219974439-415c9302-2f8f-4199-a01f-612d549b2a3e.png)
-•	Sau khi được chuyển đến trang quản trị, tại đây người dùng có thể thực hiện quản lý thông tin nhân viên, chức vụ, phòng ban, phân công, công trình, tài khoản mật khẩu.
+- Sau khi được chuyển đến trang quản trị, tại đây người dùng có thể thực hiện quản lý thông tin nhân viên, chức vụ, phòng ban, phân công, công trình, tài khoản mật khẩu.
 ![image](https://user-images.githubusercontent.com/80302795/219974446-329aae66-b160-4648-869f-c663ecdcf681.png)
 •	Khi người dùng chọn vào chức năng quản lý nhân viên thì sẽ hiển thị danh sách nhân viên và các chức năng thêm, sửa, xóa tương ứng. 
 -	Khi muốn thêm mới thì người dùng phải nhập mã nhân viên không được trùng với mã đã có và tên nhân viên không được để trống, nếu không thì không được phép thêm. 
@@ -63,7 +63,7 @@ Dựa trên những phân tích yêu cầu bài toán ở trên, nhóm đưa ra 
 
 Đây là khu vực mà người dùng có thể thực hiện các thao tác ẩn hiện phần menu, tìm kiếm và có một vài nút trợ giúp để cho người xem thông báo, thông tin tài khoản. Sơ đồ như sau:
 ![image](https://user-images.githubusercontent.com/80302795/219974661-c7852170-1938-44ee-b378-8f52731b04df.png)
-## . Giao diện trang chủ
+## 3. Giao diện trang chủ
 ![image](https://user-images.githubusercontent.com/80302795/219974680-961b4b8e-bd87-408f-b3a1-0dc05c6d3117.png)
 
 Đây là giao diện khi người dùng đăng nhập thành công, người dùng sẽ được đưa đến giao diện như hình trên.
