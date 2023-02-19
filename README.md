@@ -56,13 +56,16 @@ Dựa trên những phân tích yêu cầu bài toán ở trên, nhóm đưa ra 
 ## CHƯƠNG II: THIẾT KẾ GIAO DIỆN VÀ CHỨC NĂNG
 # 1.	Khu vực menu
 ![image](https://user-images.githubusercontent.com/80302795/219974614-8a26e963-57d4-4f3c-b283-56a3cb99fb23.png)
+
 Đây là phần menu của ứng dụng, có các chức năng giúp người dùng đến các trang quản lý công trình, nhân viên, phòng ban, chức vụ, phân công và tài khoản đăng nhập. Ngoài ra, phần trên cùng là tên của phần mềm.
 ## 2. Khu vực điều hướng
 ![image](https://user-images.githubusercontent.com/80302795/219974644-688b3cd1-135f-46dd-9ea4-d7d9f45dc9a9.png)
+
 Đây là khu vực mà người dùng có thể thực hiện các thao tác ẩn hiện phần menu, tìm kiếm và có một vài nút trợ giúp để cho người xem thông báo, thông tin tài khoản. Sơ đồ như sau:
 ![image](https://user-images.githubusercontent.com/80302795/219974661-c7852170-1938-44ee-b378-8f52731b04df.png)
 ## . Giao diện trang chủ
 ![image](https://user-images.githubusercontent.com/80302795/219974680-961b4b8e-bd87-408f-b3a1-0dc05c6d3117.png)
+
 Đây là giao diện khi người dùng đăng nhập thành công, người dùng sẽ được đưa đến giao diện như hình trên.
 # KẾT LUẬN
 Thông qua việc phân tích những yêu cầu của bài toán, cũng như dựa trên những đặc tả của dữ liệu em đã hoàn thành thiết kế database cho bài toán, thiết kế giao diện cho phần mềm quản lí lao động. Các chức năng chính của hệ thống như yêu cầu đã đề ra như: các chức năng thêm, sửa xóa, tìm kiếm dữ liệu.
