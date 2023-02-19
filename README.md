@@ -1,3 +1,4 @@
+
 ## CHƯƠNG I. PHÂN TÍCH YÊU CẦU BÀI TOÁN
 ### 1.	Các chức năng cơ bản của hệ thống
 Qua quá trính nghiên cứu nhóm đã xây dựng được một hệ thống CSDL quản lý người lao động cơ bản đáp ứng được một số yêu cầu của như sau:
@@ -22,7 +23,7 @@ Qua quá trính nghiên cứu nhóm đã xây dựng được một hệ thống
 ### 5.	Mô hình quan hệ
 ![image](https://user-images.githubusercontent.com/80302795/219974358-cef94ada-6bac-4bcc-91e2-e7627fa0209c.png)
 
-## CHƯƠNG II.Ý tưởng thiết kế 
+## CHƯƠNG II. Ý tưởng thiết kế 
 Dựa trên những phân tích yêu cầu bài toán ở trên, nhóm đưa ra ý tưởng thiết kế các chức năng như sau:
 - Đầu tiên là phần đăng nhập, nếu người dùng nhập sai tài khoản hoặc mật khẩu thì thông báo lỗi và để người dùng nhập lại mật khẩu. Ngược lại, chuyển người dùng đến trang quản trị.
 
